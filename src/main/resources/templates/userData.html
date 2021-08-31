@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="java" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <table>
+        <h1>Your DATA</h1>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Role</th>
+        <tr>
+            <td th:text="${user.username}"></td>
+            <td th:text="${user.username}"></td>
+            <td th:each="role : ${roles}" th:text="${role.roleName}">
+        </tr>
+    </table>
+    <h3>
+        <a href="/logout">Logout</a>
+    </h3>
+</div>
+
+</body>
+</html>

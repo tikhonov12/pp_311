@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="java" xmlns:th="http://www.thymeleaf.org">
+<body>
+<form th:method="PATCH" th:action="@{/admin/{id}(id=${user.getId})}" th:object="${user}" action="">
+
+    <table>
+        <tr>
+            <td><label for="username">Enter name</label></td>
+            <td><input type="text" th:field="${user.username}" id="username"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Enter name</label></td>
+            <td><input type="text" th:field="${user.password}" id="password"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Enter age</label></td>
+            <td><input type="text" th:field="${user.email}" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="role">Enter role</label></td>
+            <td><input id=role type="text" name="role" th:placeholder="role" th:fragment/></td>
+        </tr>
+        <tr><input type="submit" value="Update"></tr>
+    </table>
+</form>
+</body>
+</html>
