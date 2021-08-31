@@ -19,11 +19,6 @@ public class MainController {
         this.userService = userService;
     }
 
-    @GetMapping("/")
-    public String homePage() {
-        return "homePage";
-    }
-
     @GetMapping("/authenticated")
     public String pageForAuth(Model model, Principal principal) {
         User user = userService.findByName(principal.getName());

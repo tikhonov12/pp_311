@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="java" xmlns:th="http://www.thymeleaf.org">
 <body>
-<form th:method="PATCH" th:action="@{/admin/{id}(id=${user.getId})}" th:object="${user}" action="">
+<form th:method="post" th:action="@{/admin/{id}(id=${user.getId})}" th:object="${user}" action="">
 
     <table>
         <tr>

@@ -68,8 +68,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Set<User> getAllUsers() {
-        Set<User> userSet = new HashSet<>(userRepository.findAll());
-        return userSet;
+        return new HashSet<>(userRepository.findAll());
     }
 
     @Override
@@ -89,7 +88,6 @@ public class UserServiceImpl implements UserService {
         userRepository.save(user1);
     }
     @Override
-    @Transactional
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
         User user = userRepository.findAll().stream().filter(s -> s.getUsername().equals(name)).findFirst().get();
         return new org.springframework.security.core.userdetails.User(user.getUsername(),
