@@ -1,6 +1,6 @@
-package com.jm.pp_311.pp_311.service;
+package com.jm.pp_311.service;
 
-import com.jm.pp_311.pp_311.model.User;
+import com.jm.pp_311.model.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.Set;

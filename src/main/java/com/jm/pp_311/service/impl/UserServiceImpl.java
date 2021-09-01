@@ -1,8 +1,8 @@
-package com.jm.pp_311.pp_311.service.impl;
+package com.jm.pp_311.service.impl;
 
 
-import com.jm.pp_311.pp_311.model.Role;
-import com.jm.pp_311.pp_311.model.User;
+import com.jm.pp_311.model.Role;
+import com.jm.pp_311.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -10,10 +10,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.jm.pp_311.pp_311.repository.UserRepository;
-import com.jm.pp_311.pp_311.repository.UserRepositoryCustom;
-import com.jm.pp_311.pp_311.service.RoleService;
-import com.jm.pp_311.pp_311.service.UserService;
+import com.jm.pp_311.repository.UserRepository;
+import com.jm.pp_311.repository.UserRepositoryCustom;
+import com.jm.pp_311.service.RoleService;
+import com.jm.pp_311.service.UserService;
 
 import java.util.HashSet;
 import java.util.Set;

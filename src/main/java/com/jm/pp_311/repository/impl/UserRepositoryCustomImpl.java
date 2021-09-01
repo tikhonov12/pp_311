@@ -1,8 +1,8 @@
-package com.jm.pp_311.pp_311.repository.impl;
+package com.jm.pp_311.repository.impl;
 
-import com.jm.pp_311.pp_311.model.User;
+import com.jm.pp_311.model.User;
 import org.springframework.stereotype.Repository;
-import com.jm.pp_311.pp_311.repository.UserRepositoryCustom;
+import com.jm.pp_311.repository.UserRepositoryCustom;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

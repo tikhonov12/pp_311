@@ -1,4 +1,4 @@
-package com.jm.pp_311.pp_311;
+package com.jm.pp_311;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

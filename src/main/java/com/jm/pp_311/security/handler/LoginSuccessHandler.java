@@ -1,4 +1,4 @@
-package com.jm.pp_311.pp_311.security.handler;
+package com.jm.pp_311.security.handler;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

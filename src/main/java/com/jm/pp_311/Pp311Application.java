@@ -1,4 +1,4 @@
-package com.jm.pp_311.pp_311;
+package com.jm.pp_311;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

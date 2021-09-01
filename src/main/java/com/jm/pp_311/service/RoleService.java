@@ -1,6 +1,6 @@
-package com.jm.pp_311.pp_311.service;
+package com.jm.pp_311.service;
 
-import com.jm.pp_311.pp_311.model.Role;
+import com.jm.pp_311.model.Role;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.jm.pp_311.pp_311.controller;
+package com.jm.pp_311.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

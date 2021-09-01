@@ -1,10 +1,10 @@
-package com.jm.pp_311.pp_311.service.impl;
+package com.jm.pp_311.service.impl;
 
-import com.jm.pp_311.pp_311.model.Role;
+import com.jm.pp_311.model.Role;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.jm.pp_311.pp_311.repository.RoleRepository;
-import com.jm.pp_311.pp_311.service.RoleService;
+import com.jm.pp_311.repository.RoleRepository;
+import com.jm.pp_311.service.RoleService;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

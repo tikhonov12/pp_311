@@ -1,4 +1,4 @@
-package com.jm.pp_311.pp_311.model;
+package com.jm.pp_311.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
